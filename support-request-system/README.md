@@ -33,4 +33,4 @@ View at: [http://localhost:3000](http://localhost:3000)
 
 ## Ruby version
 
-The Ruby version used in this application is 2.4.0 MRI
+The Ruby version used in this application was 2.4.0 MRI
