@@ -10,7 +10,41 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170614231645) do
+ActiveRecord::Schema.define(version: 20170615123838) do
+
+  create_table "events", force: :cascade do |t|
+    t.integer "support_request_id"
+    t.integer "support_request_status_id"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["support_request_id"], name: "index_events_on_support_request_id"
+    t.index ["support_request_status_id"], name: "index_events_on_support_request_status_id"
+  end
+
+  create_table "roles", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "support_request_statuses", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "support_requests", force: :cascade do |t|
+    t.integer "customer_id"
+    t.integer "agent_id"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["agent_id"], name: "index_support_requests_on_agent_id"
+    t.index ["customer_id"], name: "index_support_requests_on_customer_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
