@@ -1,10 +1,10 @@
 # Ticket Support System
 
-The Ticker Support System is an application created to help Customers and Support agents to create, track and act upon suport requests (from customers). Agents will use this system to control the support tickets and give customers feedback about how their support requests are being handled.
+The Ticket Support System is an application created to help Customers and Support agents to create, track and act upon customer support. Support agents will use this system to control the support tickets and give customers feedback about how their support requests are being handled.
 
 ## Basic usage
 
-Configure the environment (development). The development environment is configured to use SQLite as database:
+Configure the environment (development). The development environment is configured to use SQLite as the database:
 
 ```shell
 bundle install

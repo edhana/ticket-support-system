@@ -1,10 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1497306700876" ID="ID_647776717" MODIFIED="1497306706647" TEXT="crossover assignment">
+<node CREATED="1497306700876" ID="ID_647776717" MODIFIED="1497306706647" TEXT="Crossover Assignment">
 <node CREATED="1497306707235" ID="ID_1135276494" MODIFIED="1497306709581" POSITION="right" TEXT="Users">
 <node CREATED="1497306709820" ID="ID_385021372" MODIFIED="1497306734340" TEXT="Customers">
 <node CREATED="1497306734654" ID="ID_1653271082" MODIFIED="1497306739893" TEXT="Can place support requests"/>
-<node CREATED="1497306808653" ID="ID_959788412" MODIFIED="1497306823889" TEXT="view satatus of previous requests"/>
+<node CREATED="1497306808653" ID="ID_959788412" MODIFIED="1497306823889" TEXT="view status of previous requests"/>
 </node>
 <node CREATED="1497306741516" ID="ID_529293168" MODIFIED="1497306745921" TEXT="Support agents">
 <node CREATED="1497306752991" ID="ID_799207966" MODIFIED="1497306849691" TEXT="find and process support requests"/>
